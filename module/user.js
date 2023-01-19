@@ -48,7 +48,7 @@ export default class Book {
     books.push(book);
     localStorage.setItem('books', JSON.stringify(books));
   }
-  
+
   static removeBook(author) {
     const books = Book.getBooks();
     let index = 0;

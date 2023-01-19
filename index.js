@@ -1,6 +1,6 @@
-import Book from './modules/UI.js';
-import Date from './modules/date.js';
-import * as module from './modules/selector.js';
+import Book from './module/user.js';
+import Date from './module/dates.js';
+import * as module from './module/select.js';
 
 window.addEventListener('load', Date());
 
